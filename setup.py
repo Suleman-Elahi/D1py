@@ -7,8 +7,8 @@ setup(
     install_requires=[
         'requests',
     ],
-    author='Your Name',
-    author_email='your.email@example.com',
+    author='Suleman Elahi',
+    author_email='suleman@duck.com',
     description='A Python library for interacting with Cloudflare D1 database',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
