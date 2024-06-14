@@ -1,6 +1,19 @@
 # D1py
 A very simple wrapper for Cloudflare D1 Databases' REST API
 
+## Included Functions:
+`list_db()`                                   --> List down all databses from your account. Returns an array with the database name and ids. Use it to get db_id for further interaction.
+
+`create_db(db_name)`                          --> Create a D1 databse in your Cloudflare account.
+
+`delete_db(database_id)`                      --> Deletes a D1 databse from your Cloudflare account.
+
+`get_db(database_id)`                         --> Get a specific D1 database from your Cloudflare account.
+
+`query_db(database_id, sql, params=None)`     --> Run a SQL query against a D1 database in your account.
+
+`raw_db_query(db_id, sql, params=None)`       --> Run a raw SQL query against a D1 database in your account.
+
 ## Usage:
 
 ```
