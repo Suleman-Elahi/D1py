@@ -12,7 +12,7 @@ setup(
     description='A Python library for interacting with Cloudflare D1 database',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
-    url='https://github.com/yourusername/D1py',
+    url='https://github.com/Suleman-Elahi/D1py',
     classifiers=[
         'Programming Language :: Python :: 3',
         'License :: OSI Approved :: MIT License',
