@@ -1,6 +1,14 @@
 # D1py
 A very simple wrapper for Cloudflare D1 Databases' REST API
 
+## Installtion
+
+`git clone https://github.com/Suleman-Elahi/D1py`
+
+`cd D1py && pip install .`
+
+For now just install like this...in future maybe uploaded to pypi if needed.
+
 ## Included Functions:
 `list_db()`                                   --> List down all databses from your account. Returns an array with the database name and ids. Use it to get db_id for further interaction.
 
