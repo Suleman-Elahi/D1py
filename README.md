@@ -16,7 +16,7 @@ D1 is Cloudflare's serverless SQLite-based database. D1py gives you full program
 ## Install
 
 ```bash
-pip install d1py
+pip install cfd1py
 ```
 
 From source:

@@ -3,7 +3,7 @@ requires = ["hatchling"]
 build-backend = "hatchling.build"
 
 [project]
-name = "D1py"
+name = "cfd1py"
 version = "2.0.0"
 description = "Async Python SDK for Cloudflare D1 Databases"
 readme = "README.md"
@@ -50,3 +50,6 @@ line-length = 99
 [tool.ruff.lint]
 select = ["E", "F", "I", "UP", "B", "SIM"]
 ignore = ["N999"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["D1py"]

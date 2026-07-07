@@ -18,7 +18,7 @@ This guide walks you through installing D1py, authenticating with Cloudflare, an
 ## Installation
 
 ```bash
-pip install d1py
+pip install cfd1py
 ```
 
 Or install from source:
